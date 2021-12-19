@@ -1,0 +1,28 @@
+#+STARTUP: overview
+
+
+[[https://en.m.wikibooks.org/wiki/Haskell/Recursion][Wikibooks Haskell tutorial]]
+
+#+name: factorial
+#+begin_src haskell
+  factorial 0 = 1
+  factorial n = n * factorial (n + 1)
+#+end_src
+
+#+begin_src haskell
+
+#+end_src
+
+#+begin_src python
+  print("Hello, World!")
+#+end_src
+
+What is a Haskell expression?
+
+What is currying?
+
+* Haskell types
++ *Int* and *Integer* are integers. Integer is unbounded, Int is not.
++ *Double* is a *Float* of higher precision.
++ *Bool* are bools.
++ *String* is a list of *char*'s ("a" /= 'a')
